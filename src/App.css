@@ -36,3 +36,14 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.footer-link {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 500;
+  transition: text-decoration 0.2s ease;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

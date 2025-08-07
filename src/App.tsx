@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, useLocation, Link } from 'react-router-dom';
 import ExampleList from './components/ExampleList';
+import Footer from './components/Footer';
 import Windowing from './examples/windowing/index.jsx';
 import './App.css';
 
@@ -26,7 +27,7 @@ const Navigation = () => {
 
 const AppContent = () => {
   return (
-    <div className="App">
+    <div className="App" style={{ flex: 1 }}>
       <Navigation />
       <Routes>
         <Route path="/" element={<ExampleList />} />
@@ -40,6 +41,7 @@ function App() {
   return (
     <Router>
       <AppContent />
+      <Footer />
     </Router>
   );
 }
