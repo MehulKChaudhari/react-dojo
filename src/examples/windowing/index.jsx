@@ -6,8 +6,6 @@ const Windowing = () => {
   const totalItems = 1000;
   const itemHeight = 50;
   const containerHeight = 350;
-
-  const totalHeight = totalItems * itemHeight;
   
   const startIndex = Math.floor(scrollTop / itemHeight);
   const endIndex = Math.min(
@@ -80,7 +78,7 @@ const Windowing = () => {
         Currently rendering items {startIndex + 1} to {endIndex}. 
         Total items: {totalItems}. Only {visibleItems.length} items in DOM.
         <br />
-        Total height: {totalHeight}px (dynamic based on {totalItems} items × {itemHeight}px each)
+        Using padding: {startIndex * itemHeight}px top, {(totalItems - endIndex) * itemHeight}px bottom to create scroll space.
       </p>
 
       <div style={{ marginTop: '2rem' }}>
@@ -91,7 +89,7 @@ const Windowing = () => {
           Your browser has to track all those elements, update their styles, and handle events for each one. 
           The result? Slow scrolling, laggy interactions, and sometimes the page just freezes up.
         </p>
-
+        
         <h3>Benefits</h3>
         <ul>
           <li><strong>Better Performance</strong> - Only renders visible items, reducing DOM nodes</li>
