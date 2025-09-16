@@ -1,10 +1,10 @@
-# React Dojo
+# JS Dojo
 
 A curated collection of React patterns, techniques, and best practices. Each example is self-contained and demonstrates a specific concept you can use in your projects.
 
 ## Overview
 
-React Dojo is a learning resource with practical, runnable examples. Each example focuses on a specific React concept or pattern, making it easy to understand and implement in your own projects.
+JS Dojo is a learning resource with practical, runnable examples. Each example focuses on a specific React concept or pattern, making it easy to understand and implement in your own projects.
 
 ## Examples
 
@@ -34,7 +34,7 @@ React Dojo is a learning resource with practical, runnable examples. Each exampl
 ## Structure
 
 ```
-react-dojo/
+js-dojo/
 ├── src/
 │   ├── examples/        # Individual example folders
 │   │   └── windowing/   # Windowing
