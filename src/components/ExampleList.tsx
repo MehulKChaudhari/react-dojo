@@ -19,8 +19,8 @@ const examples: Example[] = [
 const ExampleList = () => {
   return (
     <div>
-      <h1>React Dojo</h1>
-      <p>A curated collection of React patterns, techniques, and best practices. Each example is self-contained and demonstrates a specific concept you can use in your projects.</p>
+      <h1>JS Dojo</h1>
+      <p>A curated collection of JavaScript, Typescript, React, and browser APIs patterns, techniques, and best practices. Each example is self-contained and demonstrates a specific concept you can use in your projects.</p>
       
       <div style={{ marginTop: '2rem' }}>
         <h2>Available Examples</h2>
